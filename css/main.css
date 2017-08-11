@@ -1,10 +1,10 @@
-	body {
+		body {
 		margin: 0;
 		padding: 0;
 		font-family: 'Varela', Verdana, sans-serif;
 		font-size: small;
 		color:white;
-		background: #06395f; /*d2B48C;*/
+		background: #B29772; /*#06395f; d2B48C;*/
 	}
 	
 	div #picture {
@@ -101,6 +101,24 @@
 	#current a {
 		color: #008000;
 		font-weight:bold;
+	}
+
+    #button {
+	background: #00ce00;
+	border: 1px solid black;
+	}
+
+    #menu a {
+	   color: black;
+	}
+
+    #current {
+	   background: #00ce00;
+	   border: 5px solid white; <!-- #009a00; -->
+	}
+
+    #current a {
+	   color: white; <!--#009a00; -->
 	}
 
 	#menu li {

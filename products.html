@@ -18,25 +18,13 @@ div #picture {
 		background-size:100%;
 		Height: 200px;
 		width:100%;
-		margin: 0;
+		margin: 10px;
 		padding: 0;
 		border-radius:30px;
-		border:9px solid#B29772;
+		border:9px solid black;
 	}
 div #product1 {
 		background: #B29772 url(img/NewDeo2017.jpg) no-repeat;
-		background-position: 20% 5% !important;
-		background-size:100%;
-		float: left;
-		Height: 200px;
-		width:200px;
-		margin: 0;
-		padding: 0;
-		border-radius:30px;
-		border:9px solid#B29772;
-	}
-div #product1B {
-		background: #B29772 url(img/NewDeo2017B.jpg) no-repeat;
 		background-position: 20% 5% !important;
 		background-size:100%;
 		float: left;
@@ -145,6 +133,10 @@ div #productDescription {
 		border:9px solid#B29772;
 	}
 #button {
+    background: #008000;
+	border: 1px solid black;
+    }
+.button1 {
 	background: #00ce00;
 	border: 1px solid black;
 	}
@@ -153,10 +145,11 @@ div #productDescription {
 	}
 #current {
 	background: #00ce00;
-	border: 5px solid white; <!-- #009a00; -->
+	border: 5px solid black; <!-- #009a00; -->
 	}
 #current a {
-	color: white; <!--#009a00; -->
+	color: black; <!--#009a00; -->
+    font-weight: bold;
 	}
 </style>
 </head>
@@ -164,46 +157,20 @@ div #productDescription {
 <div id="wrap">
 		<div id="picture">
 		</div>
-<div id="menu" style="padding-left: 20%">
+<div id="menu" style="padding-left: 5%">
 		<ul>
-			<li id="button"><a href="index.html">HOME</a></li>
-			<li id="button"><a href="about.html">ABOUT ME</a></li>
+            <li id="button"><a href="index.html">HOME</a></li>
 			<li id="current"><a href="#">PRODUCTS</a></li>
-			<!-- <li id="button"><a href="testimonials.html">TESTIMONIALS</a></li> -->
-			<li id="button"><a href="contact.html">CONTACT</a></li>
+            <li id="button" style="background: #009300;"><a href="order.html">ORDER</a></li>
+            <li id="button" style="background: #00a700;"><a href="latestnews.html">LATEST NEWS</a></li>
+			<li id="button" style="background: #00ba00;"><a href="suggestions.html">SUGGESTIONS</a></li>
+            <li id="button" style="background: #00ce00;"><a href="reviews.html">REVIEWS</a></li>
 		</ul>
 		</div>
 	<table>
 	<tr>
 	<td>
 	<div id="product1">
-		</div>
-		</td>
-	<td>
-	<div id="productDescription">
-		<div style="padding:5px 15px">
-			<h3>Deodorant - $6 </h3>
-		<span> Ingredients: Arrowroot powder, organic coconut oil, organic yellow beeswax, 
-			pure bentonite clay, organic baking soda, organic raw and unrefined shea butter, vitamin e, 
-			and pure essential oils.</span>
-            <br/>
-		<span>
-            <ol>
-                <lh><u>Scent Options:</u></lh>
-                <li>Lemongrass Sage </li>
-                <li>Lavender Bergamot</li> 
-                <li>Cedarwood Sandalwood Sage</li> 
-                <li>Ylang-Ylang Jasmine</li>
-            </ol></span>
-		</div>
-	</div>
-	</td>
-	</tr>
-	</table>
-    <table>
-	<tr>
-	<td>
-	<div id="product1B">
 		</div>
 		</td>
 	<td>
@@ -378,4 +345,3 @@ div #productDescription {
 </div> <!--end #wrap -->
 </body>
 </html>
-
